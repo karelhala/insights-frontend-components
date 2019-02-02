@@ -1,0 +1,1009 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Donut component Should render deep render 1`] = `
+<Donut
+  height={200}
+  identifier="deep render"
+  legendPosition="bottom"
+  values={
+    Array [
+      Array [
+        "value1",
+        5,
+      ],
+      Array [
+        "value2",
+        10,
+      ],
+      Array [
+        "value3",
+        20,
+      ],
+      Array [
+        "value4",
+        40,
+      ],
+    ]
+  }
+  width={200}
+  withLegend={true}
+>
+  <div
+    className="ins-l-donut-wrapper legend-bottom"
+    widget-id="deep render"
+    widget-type="InsightsDonut"
+  >
+    <div
+      className="ins-l-donut"
+    >
+      <div
+        className="ins-c-donut"
+        id="deep render"
+      />
+      <div
+        className="ins-c-donut-hole"
+      >
+        <span
+          className="ins-c-donut-hole--total__number"
+        >
+          75
+        </span>
+        <span
+          className="ins-c-donut-hole--total__label"
+        />
+      </div>
+    </div>
+    <div
+      className="ins-l-donut__legend"
+    >
+      <div
+        className="donut ins-l-donut__legend--item"
+        data-id="value1"
+        key="value1,5"
+      >
+        <div
+          className="badge-wrapper"
+        >
+          <ConditionalLink
+            key="value1"
+            wrap={[Function]}
+          >
+            <span
+              className="badge"
+            />
+            <span
+              className="badge__label"
+            >
+              value1
+            </span>
+            <span
+              className="badge__number"
+            >
+              (
+              5
+              )
+            </span>
+          </ConditionalLink>
+        </div>
+      </div>
+      <div
+        className="donut ins-l-donut__legend--item"
+        data-id="value2"
+        key="value2,10"
+      >
+        <div
+          className="badge-wrapper"
+        >
+          <ConditionalLink
+            key="value2"
+            wrap={[Function]}
+          >
+            <span
+              className="badge"
+            />
+            <span
+              className="badge__label"
+            >
+              value2
+            </span>
+            <span
+              className="badge__number"
+            >
+              (
+              10
+              )
+            </span>
+          </ConditionalLink>
+        </div>
+      </div>
+      <div
+        className="donut ins-l-donut__legend--item"
+        data-id="value3"
+        key="value3,20"
+      >
+        <div
+          className="badge-wrapper"
+        >
+          <ConditionalLink
+            key="value3"
+            wrap={[Function]}
+          >
+            <span
+              className="badge"
+            />
+            <span
+              className="badge__label"
+            >
+              value3
+            </span>
+            <span
+              className="badge__number"
+            >
+              (
+              20
+              )
+            </span>
+          </ConditionalLink>
+        </div>
+      </div>
+      <div
+        className="donut ins-l-donut__legend--item"
+        data-id="value4"
+        key="value4,40"
+      >
+        <div
+          className="badge-wrapper"
+        >
+          <ConditionalLink
+            key="value4"
+            wrap={[Function]}
+          >
+            <span
+              className="badge"
+            />
+            <span
+              className="badge__label"
+            >
+              value4
+            </span>
+            <span
+              className="badge__number"
+            >
+              (
+              40
+              )
+            </span>
+          </ConditionalLink>
+        </div>
+      </div>
+    </div>
+  </div>
+</Donut>
+`;
+
+exports[`Donut component Should render with legend on bottom 1`] = `
+<div
+  className="ins-l-donut-wrapper legend-bottom"
+  widget-id="on bottom"
+  widget-type="InsightsDonut"
+>
+  <div
+    className="ins-l-donut"
+  >
+    <div
+      className="ins-c-donut"
+      id="on bottom"
+    />
+    <div
+      className="ins-c-donut-hole"
+    >
+      <span
+        className="ins-c-donut-hole--total__number"
+      >
+        75
+      </span>
+      <span
+        className="ins-c-donut-hole--total__label"
+      />
+    </div>
+  </div>
+  <div
+    className="ins-l-donut__legend"
+  >
+    <div
+      className="donut ins-l-donut__legend--item"
+      data-id="value1"
+      key="value1,5"
+    >
+      <div
+        className="badge-wrapper"
+      >
+        <ConditionalLink
+          key="value1"
+          wrap={[Function]}
+        >
+          <span
+            className="badge"
+          />
+          <span
+            className="badge__label"
+          >
+            value1
+          </span>
+          <span
+            className="badge__number"
+          >
+            (
+            5
+            )
+          </span>
+        </ConditionalLink>
+      </div>
+    </div>
+    <div
+      className="donut ins-l-donut__legend--item"
+      data-id="value2"
+      key="value2,10"
+    >
+      <div
+        className="badge-wrapper"
+      >
+        <ConditionalLink
+          key="value2"
+          wrap={[Function]}
+        >
+          <span
+            className="badge"
+          />
+          <span
+            className="badge__label"
+          >
+            value2
+          </span>
+          <span
+            className="badge__number"
+          >
+            (
+            10
+            )
+          </span>
+        </ConditionalLink>
+      </div>
+    </div>
+    <div
+      className="donut ins-l-donut__legend--item"
+      data-id="value3"
+      key="value3,20"
+    >
+      <div
+        className="badge-wrapper"
+      >
+        <ConditionalLink
+          key="value3"
+          wrap={[Function]}
+        >
+          <span
+            className="badge"
+          />
+          <span
+            className="badge__label"
+          >
+            value3
+          </span>
+          <span
+            className="badge__number"
+          >
+            (
+            20
+            )
+          </span>
+        </ConditionalLink>
+      </div>
+    </div>
+    <div
+      className="donut ins-l-donut__legend--item"
+      data-id="value4"
+      key="value4,40"
+    >
+      <div
+        className="badge-wrapper"
+      >
+        <ConditionalLink
+          key="value4"
+          wrap={[Function]}
+        >
+          <span
+            className="badge"
+          />
+          <span
+            className="badge__label"
+          >
+            value4
+          </span>
+          <span
+            className="badge__number"
+          >
+            (
+            40
+            )
+          </span>
+        </ConditionalLink>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Donut component Should render with legend on left 1`] = `
+<div
+  className="ins-l-donut-wrapper legend-left"
+  widget-id="on left"
+  widget-type="InsightsDonut"
+>
+  <div
+    className="ins-l-donut"
+  >
+    <div
+      className="ins-c-donut"
+      id="on left"
+    />
+    <div
+      className="ins-c-donut-hole"
+    >
+      <span
+        className="ins-c-donut-hole--total__number"
+      >
+        75
+      </span>
+      <span
+        className="ins-c-donut-hole--total__label"
+      />
+    </div>
+  </div>
+  <div
+    className="ins-l-donut__legend"
+  >
+    <div
+      className="donut ins-l-donut__legend--item"
+      data-id="value1"
+      key="value1,5"
+    >
+      <div
+        className="badge-wrapper"
+      >
+        <ConditionalLink
+          key="value1"
+          wrap={[Function]}
+        >
+          <span
+            className="badge"
+          />
+          <span
+            className="badge__label"
+          >
+            value1
+          </span>
+          <span
+            className="badge__number"
+          >
+            (
+            5
+            )
+          </span>
+        </ConditionalLink>
+      </div>
+    </div>
+    <div
+      className="donut ins-l-donut__legend--item"
+      data-id="value2"
+      key="value2,10"
+    >
+      <div
+        className="badge-wrapper"
+      >
+        <ConditionalLink
+          key="value2"
+          wrap={[Function]}
+        >
+          <span
+            className="badge"
+          />
+          <span
+            className="badge__label"
+          >
+            value2
+          </span>
+          <span
+            className="badge__number"
+          >
+            (
+            10
+            )
+          </span>
+        </ConditionalLink>
+      </div>
+    </div>
+    <div
+      className="donut ins-l-donut__legend--item"
+      data-id="value3"
+      key="value3,20"
+    >
+      <div
+        className="badge-wrapper"
+      >
+        <ConditionalLink
+          key="value3"
+          wrap={[Function]}
+        >
+          <span
+            className="badge"
+          />
+          <span
+            className="badge__label"
+          >
+            value3
+          </span>
+          <span
+            className="badge__number"
+          >
+            (
+            20
+            )
+          </span>
+        </ConditionalLink>
+      </div>
+    </div>
+    <div
+      className="donut ins-l-donut__legend--item"
+      data-id="value4"
+      key="value4,40"
+    >
+      <div
+        className="badge-wrapper"
+      >
+        <ConditionalLink
+          key="value4"
+          wrap={[Function]}
+        >
+          <span
+            className="badge"
+          />
+          <span
+            className="badge__label"
+          >
+            value4
+          </span>
+          <span
+            className="badge__number"
+          >
+            (
+            40
+            )
+          </span>
+        </ConditionalLink>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Donut component Should render with legend on right 1`] = `
+<div
+  className="ins-l-donut-wrapper legend-right"
+  widget-id="on right"
+  widget-type="InsightsDonut"
+>
+  <div
+    className="ins-l-donut"
+  >
+    <div
+      className="ins-c-donut"
+      id="on right"
+    />
+    <div
+      className="ins-c-donut-hole"
+    >
+      <span
+        className="ins-c-donut-hole--total__number"
+      >
+        75
+      </span>
+      <span
+        className="ins-c-donut-hole--total__label"
+      />
+    </div>
+  </div>
+  <div
+    className="ins-l-donut__legend"
+  >
+    <div
+      className="donut ins-l-donut__legend--item"
+      data-id="value1"
+      key="value1,5"
+    >
+      <div
+        className="badge-wrapper"
+      >
+        <ConditionalLink
+          key="value1"
+          wrap={[Function]}
+        >
+          <span
+            className="badge"
+          />
+          <span
+            className="badge__label"
+          >
+            value1
+          </span>
+          <span
+            className="badge__number"
+          >
+            (
+            5
+            )
+          </span>
+        </ConditionalLink>
+      </div>
+    </div>
+    <div
+      className="donut ins-l-donut__legend--item"
+      data-id="value2"
+      key="value2,10"
+    >
+      <div
+        className="badge-wrapper"
+      >
+        <ConditionalLink
+          key="value2"
+          wrap={[Function]}
+        >
+          <span
+            className="badge"
+          />
+          <span
+            className="badge__label"
+          >
+            value2
+          </span>
+          <span
+            className="badge__number"
+          >
+            (
+            10
+            )
+          </span>
+        </ConditionalLink>
+      </div>
+    </div>
+    <div
+      className="donut ins-l-donut__legend--item"
+      data-id="value3"
+      key="value3,20"
+    >
+      <div
+        className="badge-wrapper"
+      >
+        <ConditionalLink
+          key="value3"
+          wrap={[Function]}
+        >
+          <span
+            className="badge"
+          />
+          <span
+            className="badge__label"
+          >
+            value3
+          </span>
+          <span
+            className="badge__number"
+          >
+            (
+            20
+            )
+          </span>
+        </ConditionalLink>
+      </div>
+    </div>
+    <div
+      className="donut ins-l-donut__legend--item"
+      data-id="value4"
+      key="value4,40"
+    >
+      <div
+        className="badge-wrapper"
+      >
+        <ConditionalLink
+          key="value4"
+          wrap={[Function]}
+        >
+          <span
+            className="badge"
+          />
+          <span
+            className="badge__label"
+          >
+            value4
+          </span>
+          <span
+            className="badge__number"
+          >
+            (
+            40
+            )
+          </span>
+        </ConditionalLink>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Donut component Should render with legend on top 1`] = `
+<div
+  className="ins-l-donut-wrapper legend-top"
+  widget-id="on top"
+  widget-type="InsightsDonut"
+>
+  <div
+    className="ins-l-donut"
+  >
+    <div
+      className="ins-c-donut"
+      id="on top"
+    />
+    <div
+      className="ins-c-donut-hole"
+    >
+      <span
+        className="ins-c-donut-hole--total__number"
+      >
+        75
+      </span>
+      <span
+        className="ins-c-donut-hole--total__label"
+      />
+    </div>
+  </div>
+  <div
+    className="ins-l-donut__legend"
+  >
+    <div
+      className="donut ins-l-donut__legend--item"
+      data-id="value1"
+      key="value1,5"
+    >
+      <div
+        className="badge-wrapper"
+      >
+        <ConditionalLink
+          key="value1"
+          wrap={[Function]}
+        >
+          <span
+            className="badge"
+          />
+          <span
+            className="badge__label"
+          >
+            value1
+          </span>
+          <span
+            className="badge__number"
+          >
+            (
+            5
+            )
+          </span>
+        </ConditionalLink>
+      </div>
+    </div>
+    <div
+      className="donut ins-l-donut__legend--item"
+      data-id="value2"
+      key="value2,10"
+    >
+      <div
+        className="badge-wrapper"
+      >
+        <ConditionalLink
+          key="value2"
+          wrap={[Function]}
+        >
+          <span
+            className="badge"
+          />
+          <span
+            className="badge__label"
+          >
+            value2
+          </span>
+          <span
+            className="badge__number"
+          >
+            (
+            10
+            )
+          </span>
+        </ConditionalLink>
+      </div>
+    </div>
+    <div
+      className="donut ins-l-donut__legend--item"
+      data-id="value3"
+      key="value3,20"
+    >
+      <div
+        className="badge-wrapper"
+      >
+        <ConditionalLink
+          key="value3"
+          wrap={[Function]}
+        >
+          <span
+            className="badge"
+          />
+          <span
+            className="badge__label"
+          >
+            value3
+          </span>
+          <span
+            className="badge__number"
+          >
+            (
+            20
+            )
+          </span>
+        </ConditionalLink>
+      </div>
+    </div>
+    <div
+      className="donut ins-l-donut__legend--item"
+      data-id="value4"
+      key="value4,40"
+    >
+      <div
+        className="badge-wrapper"
+      >
+        <ConditionalLink
+          key="value4"
+          wrap={[Function]}
+        >
+          <span
+            className="badge"
+          />
+          <span
+            className="badge__label"
+          >
+            value4
+          </span>
+          <span
+            className="badge__number"
+          >
+            (
+            40
+            )
+          </span>
+        </ConditionalLink>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Donut component Should render with legend with Link 1`] = `
+<div
+  className="ins-l-donut-wrapper legend-bottom"
+  widget-id="with Link"
+  widget-type="InsightsDonut"
+>
+  <div
+    className="ins-l-donut"
+  >
+    <div
+      className="ins-c-donut"
+      id="with Link"
+    />
+    <div
+      className="ins-c-donut-hole"
+    >
+      <span
+        className="ins-c-donut-hole--total__number"
+      >
+        75
+      </span>
+      <span
+        className="ins-c-donut-hole--total__label"
+      />
+    </div>
+  </div>
+  <div
+    className="ins-l-donut__legend"
+  >
+    <div
+      className="donut ins-l-donut__legend--item"
+      data-id="value1"
+      key="value1,5"
+    >
+      <div
+        className="badge-wrapper"
+      >
+        <ConditionalLink
+          condition="/foo/"
+          key="value1"
+          wrap={[Function]}
+        >
+          <span
+            className="badge"
+          />
+          <span
+            className="badge__label"
+          >
+            value1
+          </span>
+          <span
+            className="badge__number"
+          >
+            (
+            5
+            )
+          </span>
+        </ConditionalLink>
+      </div>
+    </div>
+    <div
+      className="donut ins-l-donut__legend--item"
+      data-id="value2"
+      key="value2,10"
+    >
+      <div
+        className="badge-wrapper"
+      >
+        <ConditionalLink
+          condition="/foo/"
+          key="value2"
+          wrap={[Function]}
+        >
+          <span
+            className="badge"
+          />
+          <span
+            className="badge__label"
+          >
+            value2
+          </span>
+          <span
+            className="badge__number"
+          >
+            (
+            10
+            )
+          </span>
+        </ConditionalLink>
+      </div>
+    </div>
+    <div
+      className="donut ins-l-donut__legend--item"
+      data-id="value3"
+      key="value3,20"
+    >
+      <div
+        className="badge-wrapper"
+      >
+        <ConditionalLink
+          condition="/foo/"
+          key="value3"
+          wrap={[Function]}
+        >
+          <span
+            className="badge"
+          />
+          <span
+            className="badge__label"
+          >
+            value3
+          </span>
+          <span
+            className="badge__number"
+          >
+            (
+            20
+            )
+          </span>
+        </ConditionalLink>
+      </div>
+    </div>
+    <div
+      className="donut ins-l-donut__legend--item"
+      data-id="value4"
+      key="value4,40"
+    >
+      <div
+        className="badge-wrapper"
+      >
+        <ConditionalLink
+          condition="/foo/"
+          key="value4"
+          wrap={[Function]}
+        >
+          <span
+            className="badge"
+          />
+          <span
+            className="badge__label"
+          >
+            value4
+          </span>
+          <span
+            className="badge__number"
+          >
+            (
+            40
+            )
+          </span>
+        </ConditionalLink>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Donut component Should render without legend 1`] = `
+<div
+  className="ins-l-donut-wrapper legend-bottom"
+  widget-id="without legend"
+  widget-type="InsightsDonut"
+>
+  <div
+    className="ins-l-donut"
+  >
+    <div
+      className="ins-c-donut"
+      id="without legend"
+    />
+    <div
+      className="ins-c-donut-hole"
+    >
+      <span
+        className="ins-c-donut-hole--total__number"
+      >
+        75
+      </span>
+      <span
+        className="ins-c-donut-hole--total__label"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Donut component should update 1`] = `
+<div
+  className="ins-l-donut-wrapper legend-bottom"
+  widget-id="should update"
+  widget-type="InsightsDonut"
+>
+  <div
+    className="ins-l-donut"
+  >
+    <div
+      className="ins-c-donut"
+      id="should update"
+    />
+    <div
+      className="ins-c-donut-hole"
+    >
+      <span
+        className="ins-c-donut-hole--total__number"
+      >
+        75
+      </span>
+      <span
+        className="ins-c-donut-hole--total__label"
+      />
+    </div>
+  </div>
+</div>
+`;
